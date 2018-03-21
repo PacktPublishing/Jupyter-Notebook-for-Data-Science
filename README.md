@@ -7,7 +7,26 @@ The notes and example code for the online course
 
 ## Example code
 
-TODO
+Create a new directory.
+
+```bash
+mkdir jupyter-course
+cd jupyter-course
+```
+
+Clone this repository.
+
+```bash
+git clone https://github.com/PacktPublishing/Jupyter-Notebook-for-Data-Science.git
+```
+
+Start Jupyter Notebook using the Docker stack. Adapt the path to your working directory (I'm assuming *~/code/jupyter-course*).
+
+```bash
+docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupyter/datascience-notebook
+```
+
+You should now get a link to open Jupyter Notebook in your browser and work with the example code or create your own notebooks with the provided data.
 
 ## Course Notes
 
