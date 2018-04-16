@@ -5,7 +5,7 @@ The notes and example code for the online course
 
 **Under construction – hear about the course launch [here](http://eepurl.com/dofsD1)!**
 
-## Example code
+## Example Code
 
 Create a new directory.
 
@@ -26,14 +26,14 @@ Start Jupyter Notebook using the Docker stack. Adapt the path to your working di
 docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupyter/datascience-notebook
 ```
 
-You should now get a link to open Jupyter Notebook in your browser and work with the example code or create your own notebooks with the provided data.
+After everything is downloaded and started, you should get a link in your console to open Jupyter Notebook in your browser. The notebook should be connected to your local files including this git repository. You should now be ready to go through the example code or create your own notebooks to analyse the example data.
 
 ## Course Notes
 
 In the course a number of useful online resources are mentioned – you can
 find the links to all of them here.
 
-### Section 1: Getting the most out of Jupyter Notebook
+### Section 1: Jupyter Notebook Introduction
 
 1.1. Introduction to the course
 
@@ -42,12 +42,28 @@ find the links to all of them here.
 * [Forecasting financial data notebook](https://github.com/rsvp/fecon235/blob/master/nb/qdl-libor-fed-funds.ipynb)
 * [A gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
-1.2. Jupyter Notebook setup and your first notebook
-
-1.3. A walkthrough of important Jupyter Notebook features
-1.4: Exporting and sharing notebooks
+1.2. Setting up Jupyter Notebook
 
 * [Jupyter Notebook data science stack](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
+
+1.3. Using Jupyter Notebook
+
+* [Life expectancy data from the World Bank](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
+
+1.4: Publishing Notebooks
+
+* [Blogging using Jupyter Notebook](https://github.com/dataquestio/jupyter-blog)
+
+### Section 2: Data Analysis Using Pandas
+
+2.1: Introduction to the Crime Dataset
+
+* [NYC OpenData](https://data.cityofnewyork.us)
+
+2.2: Introduction to Pandas Data Structures
+2.3: Parsing the Crime Dataset Using Pandas
+2.4: Explore and Visualise the Data
+2.5: Create an Interactive Widget
 
 ## Credits
 
