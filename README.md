@@ -61,6 +61,11 @@ find the links to all of them here.
 * [NYC OpenData](https://data.cityofnewyork.us)
 
 2.2: Introduction to Pandas Data Structures
+
+* [Pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)
+* [Wes McKinney – Data analysis with pandas](https://www.youtube.com/watch?v=w26x-z-BdWQ)
+* [Brandon Rhodes - Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)
+
 2.3: Parsing the Crime Dataset Using Pandas
 2.4: Explore and Visualise the Data
 2.5: Create an Interactive Widget
