@@ -1,7 +1,9 @@
 # Jupyter Notebook for Data Science
 
-The notes and example code for the online course
+Notes, example code and datasets for the online course
 [Jupyter Notebook for Data Science](TODO).
+
+**You will need to install the [Git Large File Storage extension](https://git-lfs.github.com/) to clone all the data in this repository**
 
 **Under construction – hear about the course launch [here](http://eepurl.com/dofsD1)!**
 
