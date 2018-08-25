@@ -25,10 +25,25 @@ git clone https://github.com/PacktPublishing/Jupyter-Notebook-for-Data-Science.g
 Start Jupyter Notebook using the Docker stack. Adapt the path to your working directory (I'm assuming *~/code/jupyter-course*).
 
 ```bash
-docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupyter/datascience-notebook
+docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupyter/datascience-notebook:de0cd8011b9e
 ```
 
+You can always leave out the exact image tag (`:de0cd8011b9e`) to get the latest version of all the packages, but this is the version that was used in the course.
+
 After everything is downloaded and started, you should get a link in your console to open Jupyter Notebook in your browser. The notebook should be connected to your local files including this git repository. You should now be ready to go through the example code or create your own notebooks to analyse the example data.
+
+If you want to try out the new JupyterLab interface, start the container like this:
+
+```bash
+docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupyter/datascience-notebook:de0cd8011b9e start.sh jupyter lab
+```
+
+For Section 5 where we install additional packages, like Matplotlib Basemap, build and run the custom Docker image from the *Dockerfile* in this git repo.
+
+```bash
+docker build --rm -t jupyter/custom-notebook .
+docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan jupyter/custom-notebook start.sh jupyter lab
+```
 
 ## Course Notes
 
