@@ -1,1 +1,1 @@
-basemap==1.0.7
+basemap==1.1
