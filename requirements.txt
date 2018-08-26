@@ -1,1 +1,2 @@
 basemap==1.1
+plotly==3.1.1
