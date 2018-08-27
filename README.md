@@ -75,7 +75,9 @@ find the links to all of them here.
 
 2.1: Introduction to the Crime Dataset
 
+* [City of Chicago Data Portal](https://data.cityofchicago.org/)
 * [NYC OpenData](https://data.cityofnewyork.us)
+* [Code for All](https://codeforall.org/)
 
 2.2: Introduction to Pandas Data Structures
 
@@ -86,6 +88,13 @@ find the links to all of them here.
 2.3: Parsing the Crime Dataset Using Pandas
 2.4: Explore and Visualise the Data
 2.5: Create an Interactive Widget
+
+## Next Steps
+
+After you're done with the course, consider finding a practical problem to work on – that's the best way to learn. Here are some ideas on what to work on:
+
+- https://github.com/metakermit/awesome-python-for-social-good
+- https://www.kaggle.com/
 
 ## Credits
 
