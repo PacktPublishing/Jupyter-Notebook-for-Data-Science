@@ -70,6 +70,7 @@ find the links to all of them here.
 
 1.1. Course Introduction
 
+* [Jupyter Notebook](https://jupyter.org/)
 * [Quantum mechanical light-matter interaction notebook](https://github.com/jrjohansson/qutip-lectures/blob/master/Lecture-1-Jaynes-Cumming-model.ipynb)
 * [Whale migration notebook](http://nbviewer.jupyter.org/github/robertodealmeida/notebooks/blob/master/earth_day_data_challenge/Analyzing%20whale%20tracks.ipynb)
 * [Forecasting financial data notebook](https://github.com/rsvp/fecon235/blob/master/nb/qdl-libor-fed-funds.ipynb)
@@ -86,6 +87,7 @@ find the links to all of them here.
 1.4: Publishing Notebooks
 
 * [Blogging using Jupyter Notebook](https://github.com/dataquestio/jupyter-blog)
+* [nbviewer – simple way to share (and discover) Jupyter Notebooks](https://nbviewer.jupyter.org/)
 
 ### Section 2: Data Analysis Using Pandas
 
@@ -130,16 +132,39 @@ find the links to all of them here.
 ### Section 4: Advanced Visualisation
 
 4.1: Introduction to Information-Dense Visualisations
+
+* [Matplotlib Gallery](https://matplotlib.org/gallery/)
+* [Edward Tufte – The Visual Display of Quantitative Information](https://www.edwardtufte.com/tufte/books_vdqi)
+
 4.2: Visualising Data Correlation
+
+* [Wikipedia – time series](https://en.wikipedia.org/wiki/Time_series)
+* [Wikipedia – correlation](https://en.wikipedia.org/wiki/Correlation_and_dependence)
+
 4.3: Linear Regression
+
+* [StatsModels – a Python package with many statistical modelling methods](https://www.statsmodels.org/)
+* [Wikipedia – linear regression](https://en.wikipedia.org/wiki/Linear_regression)
+
 4.4: Correlation Matrix
 
+* [Correlation matrix using Seaborn, another plotting package](https://seaborn.pydata.org/examples/many_pairwise_correlations.html)
 
 ### Section 5: Analysing Geographic Data
 
 5.1: Maps in Data Science
+
+* [I Quant NY – a blog telling stories about New York through data](http://iquantny.tumblr.com/)
+* [How we found the worst place to park in New York City — a TEDx talk by Ben Wellington, the author of "I Quant NY"](https://www.youtube.com/watch?v=6BTg8OXhEZk)
+
 5.2: Plotting Crime Locations
+
+* [JupyterLab](https://jupyterlab.readthedocs.io/)
+
 5.3: Interactive Maps Using Plotly
+
+* [Plotly](https://plot.ly/)
+
 5.4: Final Remarks
 
 
@@ -148,7 +173,14 @@ find the links to all of them here.
 After you're done with the course, consider finding a practical problem to work on – that's the best way to learn. Here are some ideas on what to work on:
 
 - [Awesome Python for Social Good](https://github.com/metakermit/awesome-python-for-social-good) – a curated list of topics where you can use your data science & programming skills to help society.
+- [Code for All](https://codeforall.org/) – network of organizations advocating open data and helping developers and interested people get involved with analysing public data.
 - [Kaggle](https://www.kaggle.com/) – an online community for working on real data science projects posted by companies and NGOs with occasional competitions & prizes. People also help each other out by commenting on uploaded solutions and starting various discussions about data science methods. Jupyter Notebooks are used to perform the work.
+
+Some inspirational data science examples:
+
+- [Jake VanderPlas](http://jakevdp.github.io/) – the blog from an astronomer and data scientist very active in the Python community
+- [FiveThirtyEight](https://fivethirtyeight.com/) – a website that publishes data-driven articles on (mostly US) sports, politics & economics. It's a great source of inspiration of what sort of topics can be explored.
+- [Mike Bostock](https://bost.ocks.org/mike/) – data science blog with code examples from the author of [D3.js](https://d3js.org/).
 
 
 ## Credits
