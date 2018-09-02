@@ -1,13 +1,12 @@
 # Jupyter Notebook for Data Science
 
 Notes, example code and datasets for the online course
-[Jupyter Notebook for Data Science](TODO).
+[Jupyter Notebook for Data Science](#). **Under construction – hear about the course launch [here](http://eepurl.com/dofsD1)!**
 
-**You will need to install the [Git Large File Storage extension](https://git-lfs.github.com/) to clone all the data in this repository**
+- [Course Code Examples](#course-code-examples) - the source code developed during the course. We recommend you set it up on your own computer in order to try it out and make changes.
+- [Course Notes](#course-notes) - useful links and additional resources that we recommend you check out after you finish each section.
 
-**Under construction – hear about the course launch [here](http://eepurl.com/dofsD1)!**
-
-## Example Code
+## Course Code Examples
 
 Create a new directory.
 
@@ -16,7 +15,7 @@ mkdir jupyter-course
 cd jupyter-course
 ```
 
-Clone this repository.
+Clone this repository. **Note – you will first need to install the [Git Large File Storage extension](https://git-lfs.github.com/) to clone all the large datasets in this repository**
 
 ```bash
 git clone https://github.com/PacktPublishing/Jupyter-Notebook-for-Data-Science.git
@@ -30,20 +29,22 @@ docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupy
 
 You can always leave out the exact image tag (`:de0cd8011b9e`) to get the latest version of all the packages, but this is the version that was used in the course.
 
-After everything is downloaded and started, you should get a link in your console to open Jupyter Notebook in your browser. The notebook should be connected to your local files including this git repository. You should now be ready to go through the example code or create your own notebooks to analyse the example data.
+After everything is downloaded and started, you should get a link in your console to open Jupyter Notebook in your browser. The notebook should be connected to your local files including this git repository. You should now be ready to go through the example code or create your own notebooks to analyse the example datasets.
 
-If you want to try out the new JupyterLab interface, start the container like this:
+If you want to try out the new JupyterLab interface (as we do in the course in Section 5), start the container like this:
 
 ```bash
 docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan/work jupyter/datascience-notebook:de0cd8011b9e start.sh jupyter lab
 ```
 
-For Section 5 where we install additional packages, like Matplotlib Basemap, build and run the custom Docker image from the *Dockerfile* in this git repo.
+For Section 5 where we install additional packages, like Matplotlib Basemap and Plotly, build and run the custom Docker image from the *Dockerfile* in this git repo:
 
 ```bash
 docker build --rm -t jupyter/custom-notebook .
 docker run -it --rm -p 8888:8888 -v ~/code/jupyter-course:/home/jovyan jupyter/custom-notebook start.sh jupyter lab
 ```
+
+**Note – some of the notebooks connect to REST APIs that require API keys (DarkSky, Plotly & Mapbox). If you want to follow along, you will need to create accounts on these services and substitute your own API keys in the code. This is all explained in the course videos.**
 
 ## Course Notes
 
