@@ -3,10 +3,21 @@
 Notes, example code and datasets for the online course
 [Jupyter Notebook for Data Science](#). **Under construction – hear about the course launch [here](http://eepurl.com/dofsD1)!**
 
+- [Course Prerequirements](#course-prerequirements) – a few tutorials we recommend to get ready to take the course (in case you haven't worked with Python before)
 - [Course Code Examples](#course-code-examples) - the source code developed during the course. We recommend you set it up on your own computer in order to try it out and make changes.
 - [Course Notes](#course-notes) - useful links and additional resources that we recommend you check out after you finish each section.
 - [Next Steps](#next-steps) – some tips on how to continue learning after you've finished the course
 - [Credits](#credits)
+- [License](#license)
+
+
+## Course Prerequisites
+
+To fully benefit from the coverage included in this course, you will need:
+
+* a basic understanding of the Python programming language ([tutorial](https://docs.python.org/tutorial/))
+* know the basics of running commands on the command line ([tutorial](https://www.learnenough.com/command-line-tutorial))
+* a basic understanding of math and statistics will come in handy, but is not a strict requirement
 
 
 ## Course Code Examples
@@ -91,7 +102,12 @@ find the links to all of them here.
 * [Brandon Rhodes - Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)
 
 2.3: Explore and Visualise the Data
+
+* [Advanced Indexing – Pandas documentation section about hierarchical indexing](https://pandas.pydata.org/pandas-docs/stable/advanced.html)
+
 2.4: Create an Interactive Widget
+
+* [Jupyter Widgets](https://ipywidgets.readthedocs.io/)
 
 ### Section 3: Scraping Data
 
@@ -129,3 +145,8 @@ After you're done with the course, consider finding a practical problem to work 
 Course and materials author – [Dražen Lučanin](https://metakermit.com/)
 
 Published by [Packt](https://www.packtpub.com/).
+
+
+## License
+
+The code is published under the [MIT license](LICENSE).
