@@ -112,9 +112,20 @@ find the links to all of them here.
 ### Section 3: Scraping Data
 
 3.1: Introduction to Data Scraping
+
+* [Scrapy – a Python framework for scraping](https://scrapy.org/)
+
 3.2: Fetching Data from a REST API Using Requests
+
+* [DarkSky Developer API](https://darksky.net/dev)
+* [Requests](http://www.python-requests.org/)
+
 3.3: Importing API data into Pandas
+
 3.4: Scraping Websites using BeautifulSoup
+
+* [Weather Underground](https://www.wunderground.com/)
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
 
 ### Section 4: Advanced Visualisation
 
