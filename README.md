@@ -1,9 +1,9 @@
 # Jupyter Notebook for Data Science
 
 Notes, example code and datasets for the online course
-[Jupyter Notebook for Data Science](#). **Under construction – hear about the course launch [here](http://eepurl.com/dofsD1)!**
+[Jupyter Notebook for Data Science](#).
 
-- [Course Prerequirements](#course-prerequirements) – a few tutorials we recommend to get ready to take the course (in case you haven't worked with Python before)
+- [Course Prerequisites](#course-prerequisites) – a few tutorials we recommend to get ready to take the course (in case you haven't worked with Python before)
 - [Course Code Examples](#course-code-examples) - the source code developed during the course. We recommend you set it up on your own computer in order to try it out and make changes.
 - [Course Notes](#course-notes) - useful links and additional resources that we recommend you check out after you finish each section.
 - [Next Steps](#next-steps) – some tips on how to continue learning after you've finished the course
@@ -185,7 +185,7 @@ Some inspirational data science examples:
 
 ## Credits
 
-Course and materials author – [Dražen Lučanin](https://metakermit.com/)
+Course and materials author – [Dražen Lučanin](https://metakermit.com/). Hear about more of Dražen's courses by subscribing [here](http://eepurl.com/dofsD1)!
 
 Published by [Packt](https://www.packtpub.com/).
 
