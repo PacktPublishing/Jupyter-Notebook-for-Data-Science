@@ -1,7 +1,7 @@
 # Jupyter Notebook for Data Science
 
 Notes, example code and datasets for the online course
-[Jupyter Notebook for Data Science](#).
+[Jupyter Notebook for Data Science](https://www.packtpub.com/application-development/jupyter-notebook-data-science-video).
 
 - [Course Prerequisites](#course-prerequisites) – a few tutorials we recommend to get ready to take the course (in case you haven't worked with Python before)
 - [Course Code Examples](#course-code-examples) - the source code developed during the course. We recommend you set it up on your own computer in order to try it out and make changes.
