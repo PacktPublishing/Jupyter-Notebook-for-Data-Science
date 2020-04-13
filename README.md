@@ -15,9 +15,11 @@ Notes, example code and datasets for the online course
 
 To fully benefit from the coverage included in this course, you will need:
 
-* a basic understanding of the Python programming language ([tutorial](https://docs.python.org/tutorial/))
-* know the basics of running commands on the command line ([tutorial](https://www.learnenough.com/command-line-tutorial))
+* a basic understanding of the Python programming language ([tutorial](https://docs.python.org/tutorial/)), including some basics of the web (HTML/CSS) for the scraping section ([tutorial](https://www.internetingishard.com/))
+* know the basics of running commands on the command line ([tutorial](https://www.learnenough.com/command-line-tutorial)), including knowing git well enough to download this source code locally ([tutorial](https://try.github.io/))
 * a basic understanding of math and statistics will come in handy, but is not a strict requirement
+
+We are combining a wide collection of skills in this course – programming, data collection and analysis, so some parts will likely be a bit unfamiliar to you, no matter your background. Don't be discouraged by this – a part of the data science profession is to learn new skills over time to stay up-to-date. If you get stuck in any particular area, take a small break, learn some more details on the subject and resume the course afterwards. There is a wealth of resources online – from the online documentation pages of the libraries we use in the course, to websites like <https://stackoverflow.com/> where a lot of the beginner questions have already been answered.
 
 
 ## Course Code Examples
@@ -122,12 +124,16 @@ find the links to all of them here.
 * [DarkSky Developer API](https://darksky.net/dev)
 * [Requests](http://www.python-requests.org/)
 
+*Update – Since creating this course, DarkSky has shut down its API to the public. There are [alternative weather APIs](https://stackoverflow.com/a/45089938/544059) available. It is a good exercise to try to fetch similar data from another source, as these are exactly the types of tasks one frequently runs into during day-to-day data science work.*
+
 3.3: Importing API data into Pandas
 
 3.4: Scraping Websites using BeautifulSoup
 
 * [Weather Underground](https://www.wunderground.com/)
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+
+*The Weather Underground website has invariably changed since creating this course. One of the downsides of scraping websites is that the underlaying HTML markup often changes (usually even more often than API protocols). Using [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) similar to the ones we used in the video, it should be possible to adapt the code to work with an updated version of the website.*
 
 ### Section 4: Advanced Visualisation
 
