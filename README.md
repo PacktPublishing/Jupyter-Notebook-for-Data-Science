@@ -1,3 +1,8 @@
+## $5 Tech Unlocked 2021!
+[Buy and download this Video for only $5 on PacktPub.com](https://www.packtpub.com/product/jupyter-notebook-for-data-science-video/9781789135411)
+-----
+*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
+
 # Jupyter Notebook for Data Science
 
 Notes, example code and datasets for the online course
